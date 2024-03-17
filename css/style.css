@@ -22,11 +22,10 @@
 	flex-wrap: nowrap;
 }
 #left_side {
-	flex: 40%;
-    background-color: yellow;
+	flex: 20%;
 }
 #right_side {
-	flex: 60%;
+	flex: 80%;
     background-color: #f1f1f1;
 }
 * a{
@@ -117,4 +116,18 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+@media(max-width: 650px){
+	#left_side{
+		flex: 100%;
+	}
+	#right_side{
+		flex: 100%;
+	}
+	#flex_container{
+		flex-wrap: wrap;
+	}
+	.software_skill{
+		flex: 50%;
+	}
 }
