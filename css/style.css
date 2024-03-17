@@ -1,0 +1,120 @@
+#my_avt{
+    height: 120px;
+    text-align: center;
+}
+.profile_icon{
+    height: 25px;
+}
+.profile_icon_star{
+    height: 20px;
+    vertical-align: super;
+}
+.profile_text{
+    vertical-align: super;
+    padding: 5px;
+}
+#profile_language{
+    vertical-align: super;
+    padding: 5px 18px 5px;
+}
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+#left_side {
+	flex: 40%;
+    background-color: yellow;
+}
+#right_side {
+	flex: 60%;
+    background-color: #f1f1f1;
+}
+* a{
+    text-decoration: none;
+    color: blue;
+}
+#table{
+    width: 50%;
+    border-collapse: collapse;
+}
+#table tr, th, td{
+    text-align: center;
+    border: 1px solid;
+}
+#table th {
+    padding: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+#table tr:hover {
+    background-color: #ddd;
+}
+#table th:hover {
+    background-color: darkred;
+}
+#education_text_highschool{
+    padding: 5px 5px 20px 170px;
+}
+#education_text_university{
+    padding: 5px 5px 20px 100px;
+}
+#introduction_text{
+    border-style: groove;
+}
+#table_certificate{
+    width: 80%;
+    border-collapse: collapse;
+}
+#table_certificate tr, th, td{
+    text-align: center;
+    border: 1px solid;
+}
+#table_certificate th {
+    padding: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+#table_certificate tr:hover {
+    background-color: #ddd;
+}
+#table_certificate th:hover {
+    background-color: darkred;
+}
+#table_activities{
+    width: 80%;
+    border-collapse: collapse;
+}
+#table_activities tr, th, td{
+    text-align: center;
+    border: 1px solid;
+}
+#table_activities th {
+    padding: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+#table_activities tr:hover {
+    background-color: #ddd;
+}
+#table_activities th:hover {
+    background-color: darkred;
+}
+#software_container{
+    display: flex;
+	flex-wrap: wrap;
+}
+.software_skill{
+    text-align: center;
+	flex: 15%;
+}
+.software_title{
+	font-size: 100%;
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
